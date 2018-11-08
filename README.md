@@ -25,7 +25,7 @@ rails db:reset
 ```sh
 rails c
 ```
-6. Lance le scrap 
+6. Lance le scrap, attends un peu !
 ```sh
 HashCoin.new.perform
 ```
