@@ -1,6 +1,6 @@
 # Crypto Scrap 
 
-Bienvenue sur le CrypoScrap. 
+Bienvenue sur le CrypoScrap. Le cryptoScrap te permet de scraper le cours des cryptommanies via CoinMarketCap.
 
 ## La team
 @Charlotte, @Emilie, @MattMonta, @Jojo, @Elmousski 
