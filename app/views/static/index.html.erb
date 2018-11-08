@@ -1,0 +1,14 @@
+
+
+<h1>Bienvenue sur CoinLand </h1>
+<p>Le super site qui te donne le cours des crypto!</p>
+
+<%= form_for(:coin) do |f| %>
+<div class="form-group">
+     <label>Choix de la crypto</label>  
+     <%= f.collection_select :id, Coin.order(:coin_name),:id,:coin_name, {include_blank: false}, {class: "form-control"} %>
+     <%= f.submit "Afficher", class:"btn btn-sm btn-primary" %>
+
+<% end %>
+</div>
+
