@@ -19,7 +19,7 @@ rails  db:create
 ```
 4. Migrate db files
 ```sh
-rails db:migrate
+rails db:reset
 ```
 5. Lance la console
 ```sh
