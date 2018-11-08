@@ -1,24 +1,25 @@
-# README
+# Crypto Scrap 
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Bienvenue sur le CrypoScrap. 
 
-Things you may want to cover:
+### Comment ca marche ? 
 
-* Ruby version
+1. Clone le repository
 
-* System dependencies
+2. Install all the gems
+```sh
+$ bundle install
+```
+rails  db:create
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+3. Migrate db files
+```sh
+$ rails db:migrate
+```
+4. Execute seed file
+```sh
+$ rails db:seed
+```
+5. Visit the local version
+```sh
+$ rails server
